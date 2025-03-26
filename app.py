@@ -62,13 +62,13 @@ with st.sidebar:
     st.header("Poids des Segments (échelle 1 à 3)")
     default_segments = {
         "Self-Paid": 1,
-        "Apprenticeship": 2,
-        "B2B Pivot & Boost": 2,
-        "CPF": 2,
-        "Individual funding other": 2,
-        "Social Programs - PE FOAD": 3,
-        "Social Programs - IDF E-Learning": 3,
-        "Social Programs - Other": 3
+        "Apprenticeship": 1,
+        "B2B Pivot & Boost": 1,
+        "CPF": 1,
+        "Individual funding other": 1,
+        "Social Programs - PE FOAD": 1,
+        "Social Programs - IDF E-Learning": 1,
+        "Social Programs - Other": 1
     }
     segments_weights = {}
     for seg, default_val in default_segments.items():
@@ -82,13 +82,13 @@ with st.sidebar:
 
     st.header("Poids des Tracks (échelle 1 à 3)")
     default_tracks = {
-        "Systems & Networks": 3,
-        "Cybersecurity": 3,
-        "Bureautique": 2,
-        "Data": 2,
-        "Code": 2,
-        "Marketing & Comm": 3,
-        "Pedagogy": 2,
+        "Systems & Networks": 1,
+        "Cybersecurity": 1,
+        "Bureautique": 1,
+        "Data": 1,
+        "Code": 1,
+        "Marketing & Comm": 1,
+        "Pedagogy": 1,
         "Supply Chain": 1,
         "Business": 1,
         "Design": 1,
